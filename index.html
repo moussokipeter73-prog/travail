@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreatLivre | Librairie en ligne</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-top">
+
+            <a href="#" class="logo">
+                <span class="logo-icon">📖</span>
+                <div class="logo-text">
+                    <h1>Creat<span>Livre</span></h1>
+                    <p>Lire aujourd'hui, rêver demain</p>
+                </div>
+            </a>
+
+            <div class="search-box">
+                <input type="text" placeholder="Rechercher un livre...">
+                <button type="button">🔍</button>
+            </div>
+
+            <div class="header-actions">
+                <a href="#" class="account">👤 <span>Mon compte</span></a>
+                <a href="#" class="cart">🛒 <span>Mon panier</span></a>
+            </div>
+
+        </div>
+
+        <!-- NAVIGATION -->
+        <nav class="navbar">
+            <a href="#" class="active">🏠 Accueil</a>
+            <a href="#livres">📚 Livres</a>
+            <a href="#promotions">⭐ Promotions</a>
+            <a href="#nouveautes">🎁 Nouveautés</a>
+            <a href="#apropos">ℹ️ À propos</a>
+            <a href="#contact">✉️ Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- BANNIÈRE PRINCIPALE -->
+    <section class="hero">
+
+        <div class="hero-content">
+            <h2>Votre <span>librairie</span> en ligne</h2>
+
+            <p class="hero-subtitle">
+                Des milliers de livres à portée de clic !
+            </p>
+
+            <p class="hero-description">
+                Apprenez <span>•</span> Découvrez <span>•</span> Évadez-vous
+            </p>
+
+            <a href="#livres" class="hero-button">
+                Acheter maintenant <span>➜</span>
+            </a>
+        </div>
+
+        <div class="hero-image">
+            <img
+                src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=85"
+                alt="Livres ouverts et univers de lecture">
+        </div>
+
+        <div class="hero-message">
+            <h3>Le savoir<br>à portée de main !</h3>
+        </div>
+
+    </section>
+
+
+    <!-- SECTION PRINCIPALE -->
+    <main class="main-container">
+
+        <!-- CATEGORIES -->
+        <aside class="categories">
+
+            <h2>▦ &nbsp; Catégories</h2>
+
+            <ul>
+                <li><a href="#">📖 <span>Romans</span> <b>›</b></a></li>
+                <li><a href="#">🎓 <span>Sciences & Éducation</span> <b>›</b></a></li>
+                <li><a href="#">💻 <span>Informatique</span> <b>›</b></a></li>
+                <li><a href="#">🧠 <span>Développement Personnel</span> <b>›</b></a></li>
+                <li><a href="#">📚 <span>BD & Manga</span> <b>›</b></a></li>
+                <li><a href="#">📕 <span>Livres Scolaires</span> <b>›</b></a></li>
+                <li><a href="#">📘 <span>Autres Livres</span> <b>›</b></a></li>
+            </ul>
+
+        </aside>
+
+
+        <!-- LIVRES -->
+        <section class="books-section" id="livres">
+
+            <div class="section-title">
+                <h2>Nos Livres Phares</h2>
+                <a href="#" class="see-all">Voir tout ➜</a>
+            </div>
+
+            <div class="books-grid">
+
+                <!-- LIVRE 1 -->
+                <article class="book-card">
+
+                    <div class="book-image">
+                        <img
+                            src="https://covers.openlibrary.org/b/isbn/9780156012195-L.jpg"
+                            alt="Le Petit Prince">
+                    </div>
+
+                    <h3>Le Petit Prince</h3>
+
+                    <div class="rating">⭐ 4.8 <span>(120 avis)</span></div>
+
+                    <p class="price">6 500 FCFA</p>
+
+                    <button class="add-cart">🛒 Ajouter au panier</button>
+
+                </article>
+
+
+                <!-- LIVRE 2 -->
+                <article class="book-card">
+
+                    <div class="book-image">
+                        <img
+                            src="https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg"
+                            alt="Atomic Habits">
+                    </div>
+
+                    <h3>Atomic Habits</h3>
+
+                    <div class="rating">⭐ 4.9 <span>(95 avis)</span></div>
+
+                    <p class="price">8 000 FCFA</p>
+
+                    <button class="add-cart">🛒 Ajouter au panier</button>
+
+                </article>
+
+
+                <!-- LIVRE 3 -->
+                <article class="book-card">
+
+                    <div class="book-image">
+                        <img
+                            src="https://covers.openlibrary.org/b/isbn/9780441172719-L.jpg"
+                            alt="Dune">
+                    </div>
+
+                    <h3>Dune</h3>
+
+                    <div class="rating">⭐ 4.7 <span>(87 avis)</span></div>
+
+                    <p class="price">9 000 FCFA</p>
+
+                    <button class="add-cart">🛒 Ajouter au panier</button>
+
+                </article>
+
+
+                <!-- LIVRE 4 -->
+                <article class="book-card">
+
+                    <div class="book-image">
+                        <img
+                            src="https://covers.openlibrary.org/b/isbn/9781982134488-L.jpg"
+                            alt="Think Like a Monk">
+                    </div>
+
+                    <h3>Think Like a Monk</h3>
+
+                    <div class="rating">⭐ 4.8 <span>(73 avis)</span></div>
+
+                    <p class="price">7 500 FCFA</p>
+
+                    <button class="add-cart">🛒 Ajouter au panier</button>
+
+                </article>
+
+
+                <!-- LIVRE 5 -->
+                <article class="book-card">
+
+                    <div class="book-image">
+                        <img
+                            src="https://covers.openlibrary.org/b/isbn/9780439708180-L.jpg"
+                            alt="Harry Potter">
+                    </div>
+
+                    <h3>Harry Potter</h3>
+
+                    <div class="rating">⭐ 4.9 <span>(110 avis)</span></div>
+
+                    <p class="price">10 000 FCFA</p>
+
+                    <button class="add-cart">🛒 Ajouter au panier</button>
+
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- NOUVEAUTÉS -->
+    <section class="new-books" id="nouveautes">
+        <div class="new-books-content">
+            <h2>Découvrez nos nouveautés 📚</h2>
+            <p>De nouvelles lectures pour enrichir votre esprit et nourrir votre imagination.</p>
+            <a href="#livres" class="new-books-button">Découvrir les livres</a>
+        </div>
+    </section>
+
+
+    <!-- PROMOTIONS -->
+    <section class="promotion" id="promotions">
+        <h2>Nos offres spéciales</h2>
+        <p>Profitez de réductions exceptionnelles sur une sélection de livres.</p>
+        <a href="#livres">Voir les promotions →</a>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact">
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+                <h2>📖 CreatLivre</h2>
+                <p>Lire aujourd'hui, rêver demain.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Liens utiles</h3>
+                <a href="#">Accueil</a>
+                <a href="#livres">Nos livres</a>
+                <a href="#apropos">À propos</a>
+                <a href="#">FAQ</a>
+            </div>
+
+            <div class="footer-social">
+                <h3>Suivez-nous</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">YouTube</a>
+            </div>
+
+            <div class="newsletter">
+                <h3>Newsletter</h3>
+                <p>Recevez nos nouveautés par e-mail.</p>
+
+                <form>
+                    <input type="email" placeholder="Votre e-mail..." required>
+                    <button type="submit">S'abonner</button>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 CreatLivre. Tous droits réservés.</p>
+            <p>Lire. Apprendre. Grandir. 🧡</p>
+        </div>
+
+    </footer>
+
+</body>
+</html>
